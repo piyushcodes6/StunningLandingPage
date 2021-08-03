@@ -9,9 +9,15 @@
     </head>
     
     <style>
-      nav{
+      #header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+  nav{
     color: darkgray;
-}
+
+  }
 #active-link{
     color: black;
 }
@@ -105,7 +111,7 @@ color: pink;
 }
 
 main{
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -122,6 +128,7 @@ main{
             md:flex-row
             items-center
           "
+          id="header"
         >
           <a style="width: 170px; padding-right: 10; margin-left: 20px">
             <img src="https://i.imgur.com/4PaVmYF.png" alt="" id="logo" />
